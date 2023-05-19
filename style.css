@@ -1,0 +1,566 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f4f4fc;
+}
+
+header {
+    width: 100%;
+    height: 7%;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+}
+
+.contenedorCajaTexto {
+    margin-top: 0%;
+    padding-left: 15%;
+    margin-top: -3%;
+    width: 80%;
+    height: 80%;
+
+}
+
+.cajaTexto {
+    width: 60%;
+    height: 380px;
+    margin: 0%;
+    padding: 5%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+
+}
+
+.cajaTexto:focus {
+    outline: none;
+}
+
+.cajaTexto::placeholder {
+    color: #0A3871;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.alerta {
+    display: inline-flex;
+    color: #495057;
+    margin-left: 20.5%;
+    margin-top: 2.5%;
+
+}
+
+.contenedorBotones {
+    padding-left: 20%;
+    margin-top: 0%;
+}
+
+.btn-encriptar {
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-encriptar:hover {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+.btn-desencriptar {
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.btn-desencriptar:hover {
+    background-color: #0A3871;
+    color: white;
+}
+
+.seccion2 {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 25%;
+    height: 90%;
+}
+
+.contenedorMunieco {
+    height: 480px;
+    padding: 1%;
+    margin: 1%;
+    margin-left: 1%;
+    padding-left: 1%;
+}
+
+.munieco {
+    width: 250px;
+    margin-left: 15%;
+    margin-top: 30%;
+}
+
+.contenedorParrafo {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 75%;
+    height: 75%;
+}
+
+.contenedorParrafo h3 {
+    font-size: 24px;
+    text-align: center;
+    color: #343A40;
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    width: 90%;
+}
+
+.contenedorParrafo p {
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    margin-top: 5%;
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    width: 100%;
+}
+
+.contenedorResultado {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    width: 90%;
+    height: 80%;
+    border: none;
+    text-justify: auto;
+    overflow: auto;
+}
+
+.contenedorResultado p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #0A3871;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedorCopiar {
+    display: flex;
+    padding-top: 0%;
+    padding-left: 20px;
+    margin-top: 50%;
+    margin-top: 0px;
+    padding-top: 185px;
+    display: none;
+}
+
+.btnCopiar {
+    position: absolute;
+    top: 87%;
+    right: 6%;
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+
+    z-index: 1;
+}
+
+.btnCopiar:hover {
+    background-color: #0A3871;
+    color: white;
+}
+
+.ocultar {
+    display: none;
+}
+
+
+@media (max-width: 1280px) {
+   
+    *{
+        max-width: 1280px;
+    }
+    header{
+        width: 90%;
+    }
+    body{
+        width: 90%; 
+    }
+
+    .logo {
+        padding-top: 70px;
+        padding-left: 30px;
+    }
+
+    .contenedorCajaTexto {
+        margin-top: 5%;
+        margin-right: 0%;
+        padding-left: 5%;
+        padding-right: 0%;
+        width: 60%;
+        height: 35%;
+    }
+
+    .cajaTexto {
+        width: 85%;
+        height: 300px;
+        padding-left: 0%;
+    }
+
+    .alerta {       
+        margin-left: 5%;
+    }
+
+    .contenedorBotones {
+        padding-left: 5%;
+        margin-top: 1%;
+        width: 55%;
+    }
+    .btn-encriptar{
+        width: 45%;
+    }
+    .btn-desencriptar{
+        width: 45%;
+    }
+
+    .seccion2{
+        position: absolute;
+        right: 10%;
+        width: 30%;
+        height: 85%;
+ 
+    }
+
+    .contenedorParrafo {
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        width: 100%;
+        height: 80%;
+    }
+
+    .contenedorParrafo h3 {
+        position: absolute;
+        top: 10%;
+        right: 6%;
+        width: 90%;
+    }
+
+    .contenedorParrafo p {
+        position: absolute;
+        top: 25%;
+        right: 1%;
+        width: 100%;
+    }
+
+    .contenedorResultado {
+        position: absolute;
+        top: 0%;
+        right: 4%;
+        width: 90%;
+        height: 75%;
+        margin: 10% 0% 0% 0%;
+        
+
+    }
+
+    .contenedorResultado p {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 100%;
+        height: 5%;
+    }
+
+    .btnCopiar {
+        position: absolute;
+        top: 85%;
+        right: 5%;
+        width: 90%;
+        height: 60px;
+        z-index: 1;
+        margin-bottom: 5%;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+   
+
+    .logo {
+        padding-top: 70px;
+    }
+
+    .contenedorCajaTexto {
+        margin-top: 0%;
+        padding-left: 10%;
+        width: 80%;
+        height: 35%;
+    }
+
+    .cajaTexto {
+        width: 100%;
+        height: 250px;
+        padding-left: 0%;
+    }
+
+    .alerta {
+       
+        margin-left: 10%;
+    }
+
+    .contenedorBotones {
+        padding-left: 9%;
+        margin-top: 5%;
+        width: 100%;
+    }
+    .btn-encriptar{
+        margin-bottom: 2%;
+        width: 90%;
+    }
+    .btn-desencriptar{
+        width: 90%;
+    }
+
+    .contenedorMunieco {
+        display: none;
+    }
+
+    .munieco {
+        display: none;
+    }
+
+    .seccion2 {
+        position: relative;
+        top: 10%;
+        right:-2%;
+        width: 85%;
+        height: 40%;
+        margin: 5%;
+        padding: 5%;
+        padding-bottom: 30%;
+   
+
+    }
+
+    .contenedorParrafo {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 100%;
+        height: 80%;
+    }
+
+    .contenedorParrafo h3 {
+        position: absolute;
+        top: 5%;
+        right: 6%;
+        width: 90%;
+    }
+
+    .contenedorParrafo p {
+        position: absolute;
+        top: 55%;
+        right: 1%;
+        width: 100%;
+    }
+
+    .contenedorResultado {
+        position: absolute;
+        top: 0%;
+        right: 4%;
+        width: 90%;
+        height: 60%;
+        margin: 10% 0% 0% 0%;
+        
+
+    }
+
+    .contenedorResultado p {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 100%;
+        height: 5%;
+    }
+
+    .btnCopiar {
+        position: absolute;
+        top: 75%;
+        right: 5%;
+        width: 90%;
+        height: 60px;
+        z-index: 1;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 376px) {   
+
+    .logo {
+        margin-left: -15%;
+        margin-top: -10%;
+        padding-bottom: 0%;
+    }
+
+    .contenedorCajaTexto {
+        margin-top: -1%;
+        padding-left: 7%;
+        width: 85%;
+        height: 55%;
+    }
+
+    .cajaTexto {
+        width: 85%;
+        height: 55%;
+        padding-left: 0%;
+        padding-top: 0%;
+    }
+
+    .alerta {
+        margin-left: 0%;
+        padding-left: 6%;
+        margin-top: 0%;
+    }
+
+    .contenedorBotones {
+        padding-left: 5%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        width: 100%;
+    }
+
+    .btn-encriptar {
+        margin-bottom: 3%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .btn-desencriptar {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .contenedorMunieco {
+        display: none;
+    }
+
+    .munieco {
+        display: none;
+    }
+
+    .seccion2 {
+        position: absolute;
+        width: 90%;
+        height: 176px;
+        left: 5%;
+        top: 450px;
+        margin-top: 0%;
+        padding: 0%;
+        margin: 0%;        
+    }
+
+    .contenedorParrafo {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 100%;
+        height: 70%;
+    }
+
+    .contenedorParrafo h3 {
+        position: absolute;
+        top: 30%;
+        right: 6%;
+        width: 90%;
+    }
+
+    .contenedorParrafo p {
+        position: absolute;
+        top: 65%;
+        right: 1%;
+        width: 80%;
+        padding: 5% 10% 10% 10%;
+    }
+
+    .contenedorResultado {
+        position: absolute;
+        top: 5%;
+        right: 4%;
+        width: 90%;
+        height: 70%;
+        margin-bottom: 50px;
+    }
+
+    .contenedorResultado p {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 90%;
+        height: 5%;
+    }
+
+    .btnCopiar {
+        position: absolute;
+        top: 70%;
+        right: 5%;
+        width: 90%;
+        height: 60px;
+        z-index: 1;        
+        margin-top: 25%;
+    }
+}
