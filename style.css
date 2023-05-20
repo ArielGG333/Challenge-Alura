@@ -228,15 +228,17 @@ main {
 
 
 @media (max-width: 1280px) {
-   
-    *{
+
+    * {
         max-width: 1280px;
     }
-    header{
+
+    header {
         width: 90%;
     }
-    body{
-        width: 90%; 
+
+    body {
+        width: 90%;
     }
 
     .logo {
@@ -259,7 +261,7 @@ main {
         padding-left: 0%;
     }
 
-    .alerta {       
+    .alerta {
         margin-left: 5%;
     }
 
@@ -268,19 +270,23 @@ main {
         margin-top: 1%;
         width: 55%;
     }
-    .btn-encriptar{
+
+    .btn-encriptar {
         width: 45%;
-    }
-    .btn-desencriptar{
-        width: 45%;
+        z-index: 1;
     }
 
-    .seccion2{
+    .btn-desencriptar {
+        width: 45%;
+        z-index: 1;
+    }
+
+    .seccion2 {
         position: absolute;
         right: 10%;
         width: 30%;
         height: 85%;
- 
+
     }
 
     .contenedorParrafo {
@@ -312,8 +318,6 @@ main {
         width: 90%;
         height: 75%;
         margin: 10% 0% 0% 0%;
-        
-
     }
 
     .contenedorResultado p {
@@ -339,7 +343,6 @@ main {
 
 
 @media (max-width: 768px) {
-   
 
     .logo {
         padding-top: 70px;
@@ -359,7 +362,7 @@ main {
     }
 
     .alerta {
-       
+
         margin-left: 10%;
     }
 
@@ -368,12 +371,16 @@ main {
         margin-top: 5%;
         width: 100%;
     }
-    .btn-encriptar{
+
+    .btn-encriptar {
         margin-bottom: 2%;
         width: 90%;
+        z-index: 1;
     }
-    .btn-desencriptar{
+
+    .btn-desencriptar {
         width: 90%;
+        z-index: 1;
     }
 
     .contenedorMunieco {
@@ -387,13 +394,13 @@ main {
     .seccion2 {
         position: relative;
         top: 10%;
-        right:-2%;
+        right: -2%;
         width: 85%;
         height: 40%;
         margin: 5%;
         padding: 5%;
         padding-bottom: 30%;
-   
+
 
     }
 
@@ -426,7 +433,7 @@ main {
         width: 90%;
         height: 60%;
         margin: 10% 0% 0% 0%;
-        
+
 
     }
 
@@ -449,7 +456,7 @@ main {
     }
 }
 
-@media (max-width: 376px) {   
+@media (max-width: 376px) {
 
     .logo {
         margin-left: -15%;
@@ -489,10 +496,13 @@ main {
         margin-bottom: 3%;
         margin-left: 5%;
         width: 90%;
+        z-index: 1;
     }
+
     .btn-desencriptar {
         margin-left: 5%;
         width: 90%;
+        z-index: 1;
     }
 
     .contenedorMunieco {
@@ -511,7 +521,7 @@ main {
         top: 450px;
         margin-top: 0%;
         padding: 0%;
-        margin: 0%;        
+        margin: 0%;
     }
 
     .contenedorParrafo {
@@ -560,7 +570,7 @@ main {
         right: 5%;
         width: 90%;
         height: 60px;
-        z-index: 1;        
+        z-index: 1;
         margin-top: 25%;
     }
 }
