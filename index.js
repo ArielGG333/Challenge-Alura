@@ -1,11 +1,6 @@
-//var botonEncriptar = document.querySelector(".btn-encriptar")
-//var botonDesencriptar = document.querySelector(".btn-desencriptar")
 var munieco = document.querySelector(".contenedorMunieco");
 var contenedor = document.querySelector(".contenedorParrafo");
 var resultado = document.querySelector(".textoResultado");
-
-// botonEncriptar.onclic = encriptar;
-// botonDesencriptar.onclic = desencriptar;
 
 function encriptar() {
   ocultarAdelante();
@@ -25,29 +20,28 @@ function recuperarTexto() {
 }
 
 function ocultarAdelante() {
-    var seccion2 = document.querySelector('.seccion2');
+  var seccion2 = document.querySelector(".seccion2");
   if (window.innerWidth <= 768 && window.innerWidth <= 1280) {
     munieco.classList.add("ocultar");
     contenedor.classList.add("ocultar");
     document.querySelector(".contenedorCopiar").style.display = "block";
-    seccion2.style.height= '35%';
-
-  } 
-   if (window.innerWidth <= 376 && window.innerWidth <= 768 && window.innerWidth <= 1280) {
+    seccion2.style.height = "35%";
+  }
+  if (
+    window.innerWidth <= 376 &&
+    window.innerWidth <= 768 &&
+    window.innerWidth <= 1280
+  ) {
     munieco.classList.add("ocultar");
     contenedor.classList.add("ocultar");
     document.querySelector(".contenedorCopiar").style.display = "block";
-    document.querySelector(".cajaTexto").style.height= '280px';
-    document.querySelector(".contenedorBotones").style.marginTop= '8%';
-    document.querySelector(".alerta").style.marginTop= '10%';
+    document.querySelector(".cajaTexto").style.height = "280px";
+    document.querySelector(".contenedorBotones").style.marginTop = "8%";
+    document.querySelector(".alerta").style.marginTop = "10%";
 
-  
-   
-
-    seccion2.style.marginTop= '45%';
-    seccion2.style.paddingBottom= '550px';
-    seccion2.style.height= '50%';
-
+    seccion2.style.marginTop = "45%";
+    seccion2.style.paddingBottom = "550px";
+    seccion2.style.height = "50%";
   } else {
     munieco.classList.add("ocultar");
     contenedor.classList.add("ocultar");
